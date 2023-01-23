@@ -1,0 +1,42 @@
+git practice
+============
+
+1.git init
+
+2.first do you create working directory
+  mkdir file name
+  cd filename
+  vim filename and save the file
+  git add
+  working area will be complete
+
+3.go to staging area
+  
+  git commit -m "adding some message"
+  staging area will be complete
+
+4.how to modifie
+
+  vim file add some message
+  check status
+  git add
+  git commit
+
+5.checking with stagged and unstagged changes
+
+  git diff
+
+6.deletion of file from both local and working
+
+  git rm -f filename
+  git commit -m "give message"
+
+7.deletion of file from only local wont to working area
+
+  git rm --cached file name
+  git commit -m "give message"
+
+8.how to revet the deleted file
+
+  git revert commit id
+
